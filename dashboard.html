@@ -24,6 +24,7 @@
       align-items: center;
       justify-content: center;
       text-align: center;
+      padding: 0 20px;
     }
     header h1 {
       font-weight: 700;
@@ -40,6 +41,32 @@
     }
     .card-title {
       font-weight: 600;
+    }
+    .btn-custom {
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+    }
+    .btn-custom:hover,
+    .btn-custom:focus,
+    .btn-custom:active {
+      color: #fff;
+      background-color: #4caf50;
+      border: none;
+      box-shadow: none;
+    }
+
+    @media (max-width: 576px) {
+      header {
+        height: 200px;
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header h2 {
+        font-size: 1.2rem;
+      }
     }
   </style>
 </head>
@@ -73,55 +100,58 @@
   </header>
 
   <!-- Fitur Utama -->
-<!-- Fitur Utama -->
-<!-- Fitur Utama -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="text-center mb-5 fw-bold">Fitur Pembelajaran</h2>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-      <div class="col">
-        <a href="materi.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          📚 Materi<br><small>Akses materi untuk pemahaman lebih dalam</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="videointeraktif.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          🎥 Video Interaktif<br><small>Tonton & jawab kuis langsung</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="soaladaptif.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          🧠 Soal Adaptif<br><small>Soal berubah sesuai kemampuan</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="https://herukeswanto.my.canva.site/ham" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          🏆 Gamifikasi<br><small>Poin & badge untuk motivasi belajar</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="analisiskemajuan.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          📊 Analisis Kemajuan<br><small>Grafik perkembangan real-time</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="forumdiskusi.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          💬 Forum Diskusi<br><small>Interaksi aktif siswa & guru</small>
-        </a>
-      </div>
-      <div class="col">
-        <a href="aksesoffline.html" class="btn btn-outline-success w-100 py-4 rounded-4 shadow-sm text-center">
-          📥 Akses Offline<br>
-        </a>
-      </div>
-        <div class="text-center mt-5">
-        <a href="index.html" class="btn btn-secondary px-4 py-2 rounded-pill shadow">⬅️ Kembali ke Beranda</a>
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Fitur Pembelajaran</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="col">
+          <a href="materi.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            📚 Materi<br><small>Akses materi untuk pemahaman lebih dalam</small>
+          </a>
         </div>
+        <div class="col">
+          <a href="videointeraktif.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            🎥 Video Interaktif<br><small>Tonton & jawab kuis langsung</small>
+          </a>
+        </div>
+        <div class="col">
+          <a href="soaladaptif.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            🧠 Soal Adaptif<br><small>Soal berubah sesuai kemampuan</small>
+          </a>
+        </div>
+        <div class="col">
+          <a href="gamifikasi.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            🏆 Gamifikasi<br><small>Poin & badge untuk motivasi belajar</small>
+          </a>
+        </div>
+        <div class="col">
+          <a href="analisiskemajuan.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            📊 Analisis Kemajuan<br><small>Grafik perkembangan real-time</small>
+          </a>
+        </div>
+        <div class="col">
+          <a href="forumdiskusi.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            💬 Forum Diskusi<br><small>Interaksi aktif siswa & guru</small>
+          </a>
+        </div>
+        <div class="col">
+          <a href="aksesoffline.html" class="btn btn-custom w-100 py-4 rounded-4 shadow-sm text-center">
+            📥 Akses Offline<br>
+          </a>
+        </div>
+        <div class="text-center mt-5">
+          <a href="index.html" class="btn btn-secondary px-4 py-2 rounded-pill shadow">⬅️ Kembali ke Beranda</a>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5">
+    <div class="container">
+      <small>&copy; 2025 EduSmart | Smart Learning | Magister Teknologi Pendidikan</small>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
